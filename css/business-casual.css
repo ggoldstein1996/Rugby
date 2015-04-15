@@ -6,11 +6,19 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('http://www.freesupertips.co.uk/wp-content/uploads/2015/02/rugby.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+body #carousel-example-generic {
+    width: 50%;
+    height: 50%;
+
+}
+body .brand{
+    color: #000000;
 }
 
 h1,
