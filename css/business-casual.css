@@ -17,10 +17,17 @@ body #carousel-example-generic {
     height: 50%;
 
 }
+body a {color: black;}
 body .brand{
     color: #000000;
 }
+body .box {  background: rgba(192, 192, 194, 0.9);}
+body footer {  background: rgba(192, 192, 194, 0.9);}
 
+body .navbar-default {
+color: black;
+  background: rgba(192, 192, 194, 0.9);}
+body .navbar-default .navbar-nav>li>a {color: black;}
 h1,
 h2,
 h3,
@@ -45,9 +52,17 @@ hr {
 }
 
 .brand,
-.address-bar {
+{
     display: none;
 }
+body .brand-3 {margin-top: -5.2%;
+  color: rgba(192, 192, 194, 0.9);}
+body .brand {margin-top: -2%;}
+body .brand-2 {margin-right: 60%; padding-bottom: -20%;
+color: rgba(192, 192, 194, 0.9);}
+body .brand-3 {margin-left: 60%;
+    color: rgba(192, 192, 194, 0.9);
+padding-top: -10%;}
 
 .navbar-brand {
     text-transform: uppercase;
@@ -127,7 +142,7 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Crimson Text","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
@@ -143,7 +158,19 @@ footer p {
         margin-right: 25px;
     }
 
-    .address-bar {
+    .brand-2 {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+        .brand-3 {
         display: inherit;
         margin: 0;
         padding: 0 0 40px;
