@@ -17,6 +17,18 @@ body #carousel-example-generic {
     height: 50%;
 
 }
+.carousel {margin-left: 25%;}
+.extras {margin-left: 36%;}
+.homestay {margin-left: 0%;}
+.sponsor {margin-top: 25.3%;}
+.sponpic {margin-left: 25%;}
+.reference {text-align: center; margin-left: 17%;}
+.mainpage {text-align: center; margin-left: 30%}
+body .hip1{ height: 250px;
+width: 250px; margin-left: 29%;}
+body .hip2{ height: 250px;
+width: 250px; margin-left: 28%;}
+body .updates {margin-left: 26.5%;}
 body a {color: black;}
 body .brand{
     color: #000000;
